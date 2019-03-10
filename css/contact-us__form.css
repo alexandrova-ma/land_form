@@ -1,0 +1,95 @@
+html, body {
+    height: 100vh;
+}
+
+.bg-linear {
+   background: linear-gradient(to bottom, #141720, white);
+   height: 100vh;
+}
+
+.form-container {
+    margin: 5% auto;
+    width: 700px;
+}
+
+form {
+    width: 100%;
+    padding: 20%;
+    position: relative;
+    background-color: #141720;
+}
+
+input,
+textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #141720;
+    color: white;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-family: Ubuntu, Arial, sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+
+textarea {
+    height: 190px;
+    border-bottom: 2px solid white;
+    outline: none;
+    -moz-appearance: none;
+    resize: none;
+    overflow: hidden;
+}
+
+input {
+    height: 30px;
+    outline: none;
+    -moz-appearance: none;
+}
+
+button {
+    width: 170px;
+    height: 50px;
+    background-color: #C71222;
+    font-family: Ubuntu, Arial, sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.1875px;
+    color: #FFFFFF;
+    border-radius: 100px;
+    border: none;
+    position: absolute;
+    right: 20%;
+    bottom: 28%;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FFFFFF;
+    color: #C71222;
+}
+
+input:hover, textarea:hover {
+    background-color: #010E0F;
+}
+
+::-webkit-input-placeholder {
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+::-moz-placeholder {
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+:-moz-placeholder {
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: #FFFFFF;
+    opacity: 1;
+}
