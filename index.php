@@ -199,7 +199,6 @@
                     </div>
                     <input type="hidden" class="hidden" name="start-time" value="<? echo date('Y-m-d H:i:s'); ?>"> <br/>
                     <button type="submit">Contacts Us</button>
-                    <? $url = $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>
                 </form>
             </div>
         </div>
