@@ -4,6 +4,12 @@
     height: 45%;
 }
 
+.fancybox-stage .fancybox-slide .form-container {
+	background-color: #141720;
+    height: auto;
+    width: 50%;
+}
+
 form {
     position: relative;
 }
@@ -70,17 +76,40 @@ input:hover, textarea:hover {
 
 ::-moz-placeholder {
     color: #FFFFFF;
-    opacity: 1;
 }
 
-:-moz-placeholder {
-    color: #FFFFFF;
-    opacity: 1;
+.bg-linear {
+   background: linear-gradient(to bottom, #141720, white);
+   height: 100vh;
 }
 
-:-ms-input-placeholder {
+.form-contacts {
+    margin: 5% auto;
+    width: 700px;
+}
+
+.form-contacts form {
+    width: 100%;
+    padding: 20%;
+    position: relative;
+    background-color: #141720;
+}
+
+.form-contacts button {
+    width: 170px;
+    height: 50px;
+    background-color: #C71222;
+    font-family: Ubuntu, Arial, sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.1875px;
     color: #FFFFFF;
-    opacity: 1;
+    border-radius: 100px;
+    border: none;
+    position: absolute;
+    right: 20%;
+    bottom: 28%;
+    outline: none;
+    cursor: pointer;
 }
 
 .hidden {

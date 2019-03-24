@@ -247,7 +247,7 @@ footer {
   box-shadow: 0 0 0 3px #fff;
   transition: transform 0.15s ease;
 }
-
+/*
 .gallery {
     flex-wrap:wrap;
     background-color: #141720;
@@ -271,7 +271,7 @@ footer {
     transform: scale(1.5);
     transition: transform 0.2s ease;
 }
-
+*/
 .gallery-head {
     text-align:center;
     font-family: Montserrat, sans-serif;
@@ -284,3 +284,4 @@ footer {
     width: 700px;
     background-color: #141720;
 }
+
