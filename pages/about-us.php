@@ -41,4 +41,4 @@
 // Options will go here
 });
 </script>
-<script type="text/javascript" src="js/script2.js"></script>
+

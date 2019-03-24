@@ -44,5 +44,12 @@
         include_once 'pages/home.php';
     }
 ?>
+<div style="display:none;">
+    <div id="hidden">Ваше сообщение отправлено!</div>
+</div>
+<a href="#hidden" id="click" rel="nofollow" class="modalbox" data-fancybox-type="ajax"></a>
+<div> </div>
+<script type="text/javascript" src="js/script2.js"></script>
+</body>
 </body>
 </html>
