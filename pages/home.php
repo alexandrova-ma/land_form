@@ -191,7 +191,7 @@
             </div>
         </div>
         <div class="map col-6">
-        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A45ceb3e77b625f15b9b5477de7f637f9e71db401ad3b45649b630094e1bfc5c5&amp;width=700&amp;height=700&amp;lang=ru_RU&amp;scroll=true"></script>
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A45ceb3e77b625f15b9b5477de7f637f9e71db401ad3b45649b630094e1bfc5c5&amp;lang=ru_RU&amp;scroll=true"></script>
         </div>
     </div>
 </footer>
