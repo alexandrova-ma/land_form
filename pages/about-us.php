@@ -1,7 +1,7 @@
 <div class="gallery-head">
-        <h1>Aboute Us</h1>
+        <h1>About Us</h1>
 </div>
-<div class= "container-fluid">
+<div class= "container-fluid gallery">
     <a href="img/img.png" target="_blank" data-fancybox="images"> <img src="img/img.png"></a>
     <a href="img/img.png" target="_blank" data-fancybox="images"> <img src="img/img.png"></a>
     <a href="img/img.png" target="_blank" data-fancybox="images"> <img src="img/img.png"></a>

@@ -20,14 +20,15 @@
 <header>
     <div class="header__container container">
         <div class="header__logo">
-            <a href="index.html">Company Name</a>
+            <a href="index.php?page=home">Company Name</a>
         </div>
         <nav>
             <ul class="nav__menu">
                 <li><a href="index.php?page=home">Home</a></li>
                 <li><a href="index.php?page=about">About us</a></li>
-                <li><a href="#">Services</a></li>
+                <li><a href="index.php?page=services">Services</a></li>
                 <li><a href="#form-ajax" rel="nofollow" class="modalbox" data-fancybox-type="ajax"> Jobs</a></li>
+                <li><a href="index.php?page=videopage">Video</a></li>
                 <li><a href="index.php?page=contacts">Contact Us</a></li>
             </ul>
         </nav>
@@ -39,6 +40,12 @@
         
     } else if ($_GET['page'] == 'contacts') {
         include_once 'pages/contact-us.php';
+    
+    } else if ($_GET['page'] == 'video') {
+        include_once 'pages/video.php';
+
+    } else if ($_GET['page'] == 'services') {
+        include_once 'pages/services.php';
     }
     else {
         include_once 'pages/home.php';
@@ -48,8 +55,6 @@
     <div id="hidden">Ваше сообщение отправлено!</div>
 </div>
 <a href="#hidden" id="click" rel="nofollow" class="modalbox" data-fancybox-type="ajax"></a>
-<div> </div>
 <script type="text/javascript" src="js/script2.js"></script>
-</body>
 </body>
 </html>

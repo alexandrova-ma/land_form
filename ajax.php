@@ -29,11 +29,11 @@ if (!preg_match("/^\+?[78][-\(]?\d{3}\)?-?\d{3}-?\d{2}-?\d{2}$/", $phone)) {
     $errors['phone'] = "Неправильно введен телефон";
   }
 if (empty($errors)) {
-    $dsn = "mysql:host=$host;dbname=$db_name;";
+    /*$dsn = "mysql:host=$host;dbname=$db_name;";
     $pdo = new PDO($dsn, $username, $password, $opt);
     $stmt_insert = $pdo->prepare('INSERT INTO messages (name, email, phone, message,  startTime, sendTime, diff) VALUES  (?, ?, ?, ?, ?, ?, ?)');
     $stmt_insert->execute(array($name, $email,  $phone,  $message,  $startTime, $sendTime, $diff));
-    mail($to, $subject, $body, $from);
+    mail($to, $subject, $body, $from);*/
     echo json_encode(array('result' => 'success'));
 } 
 else {
